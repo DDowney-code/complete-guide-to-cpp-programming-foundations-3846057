@@ -1,5 +1,5 @@
 // Complete Guide to C++ Programming Foundations
-// Exercise 00_03 with modifications
+// Exercise 00_03 with modifications by Dave
 // Using the Exercise Files in GitHub Codespaces, by Eduardo Corpeño 
 
 #include <iostream>
@@ -12,6 +12,7 @@ int main(){
     std::cout << "Enter number 2: " << std::flush;
     std::cin >> num_2;
     
+
     result = num_1 + num_2;
     
     std::cout << "The result of the addition is " << result << std::endl;
